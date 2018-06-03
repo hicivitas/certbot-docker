@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 mkdir -p /tmp/cert
 cd /tmp/cert
 echo "certbot_dns_dnspod:dns_dnspod_email = \"${DNSPOD_EMAIL}\"" > c.ini
